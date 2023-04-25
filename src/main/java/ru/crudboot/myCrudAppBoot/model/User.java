@@ -18,6 +18,8 @@ public class User {
     private String department;
     @Column(name = "salary")
     private int salary;
+//    @Column(name = "role")
+//    private String role;
 
 
     public User() {
@@ -74,8 +76,7 @@ public class User {
         this.salary = salary;
     }
 
-    public User(int id, String name, String surname, String department, int salary) {
-        this.id = id;
+    public User(String name, String surname, String department, int salary) {
         this.name = name;
         this.surname = surname;
         this.department = department;
