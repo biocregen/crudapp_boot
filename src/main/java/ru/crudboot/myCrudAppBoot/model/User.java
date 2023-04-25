@@ -18,8 +18,6 @@ public class User {
     private String department;
     @Column(name = "salary")
     private int salary;
-//    @Column(name = "role")
-//    private String role;
 
 
     public User() {
